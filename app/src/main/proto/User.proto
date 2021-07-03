@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.saikalyandaroju.jetpackdatastoredemo"; //proto3 is a language by google proto2 also there
+option java_multiple_files = true;
+
+message User{  // 1,2 are saerailnumbers/index
+    string name = 1;
+    int32 age =2;
+}
